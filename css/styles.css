@@ -79,7 +79,7 @@ header {
 
 header ul {
     display: inline-block;
-    /* background: #fff; */
+    background: #000000ad;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -369,6 +369,11 @@ footer {
 #about p {
     color: #74808a;
     margin: 0
+}
+
+#about ul,
+#experience-timeline ul {
+    color: #74808a;
 }
 
 #experience {

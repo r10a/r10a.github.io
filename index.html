@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="js/pt.min.js"></script>
 </head>
 
 <body>
@@ -51,12 +50,15 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Rohit Mishra</h1>
-            <h2>Software Engineer</h2>
+            <h2>Gradute Student @
+                <a href="https://cse.uta.edu/" target="_blank" style="text-decoration: none;">UTA</a>
+            </h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
-        <div id="pt" class="canvas"></div>
+        <!-- <div id="pt" class="canvas"></div> -->
+        <div id="particles-js"></div>
         <!-- <div id="lead-overlay"></div> -->
 
         <div id="lead-down">
@@ -76,13 +78,24 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                        nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta
-                        quam laoreet placerat. Donec eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin
-                        ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque
-                        justo tempus pharetra. Vivamus nunc justo, finibus ut nisl sed, euismod rhoncus nulla. Proin sed
-                        magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex
-                        libero aliquet diam, at maximus risus enim non leo.
+                        A graduate student at The University of Texas at Arlington. I love to write clean, functional, and productive code. My love
+                        for Functional programming keeps me updated with the latest innovations in current language implementations
+                        of Python/Java/Scala/JavaScript.
+                        <br/> Right now I am exploring Systems/Architecture as an academic track for my Graduate study. Have worked
+                        3+ years as a Software Developer/Full Stack Web Developer. Technologies that I have experience with
+                        include -
+                    </p>
+                    <ul>
+                        <li> Apache Spark clusters for big data processing </li>
+                        <li> Apache Cassandra for high performance nosql </li>
+                        <li> Python Django, Bottle, Falcon, etc... </li>
+                        <li> Python for Machine Learning academic projects</li>
+                        <li> C/C++ for programming lego robots as a part of academic projects</li>
+                        <li> Spring Boot</li>
+                        <li> Angular </li>
+                    </ul>
+                    <p>
+                        My current work includes exploring the Linux Kernel layer for my Graduate Thesis Project.
                     </p>
                 </div>
             </div>
@@ -93,33 +106,38 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="June 2018 – August 2018">
+                <h3>Fiserv</h3>
+                <h4>Software Developer Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
-                    laoreet placerat.
+                    <ul>
+                        <li>Built a scalable archival project for storing and retrieving any kind of file with very low response
+                            times using High Performance Open Source software like Apache Spark, Cassandra, Django, Bottle/Falcon,
+                            Angular, etc...</li>
+                        <li>Profiling of JVM and performance analysis of organization critical Web Services using JMeter to measure
+                            throughput and response time. Obtained useful metrics by simulating real world load scenarios
+                            which presented the state of an application during actual deployment.</li>
+                        <li>Built plugins for Jenkins to automate daily reporting during build time.</li>
+                    </ul>
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="September 2015 – July 2017">
+                <h3>Tech Mahindra (AT&T)</h3>
+                <h4>Software Engineer</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
-                    laoreet placerat.
+                    Primary focus on REST-based application architectures using technologies like Spring-HATEOAS-REST for designing micro-service
+                    APIs, Spring-DATA for database independence, Angular.js for interfacing with REST-based APIs and Angular-Material-UI
+                    for responsive web designing.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="May 2014 – June 2015">
+                <h3>Persistent Systems</h3>
+                <h4>Project Intern</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                    nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam
-                    laoreet placerat.
+                    Implemented a popular heuristic based Moving target pursuit algorithm named TAO-MTP and made significant alterations to increase
+                    memory usage efficiency.
                 </p>
             </div>
         </div>
@@ -129,32 +147,21 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>University Texas at Arlington</h3>
+            <span class="education-date">August 2017 - May 2019</span>
+            <h4>Masters in Computer Science</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet
-                placerat.
+
             </p>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
+            <h3>University of Pune</h3>
+            <span class="education-date">August 2011 - May 2015</span>
+            <h4>Bachelors in Computer Science/Engineering</h4>
+            <p>I pursued my bachelor's degree in Computer Engineering. Part of my activities was participating in various technical
+                and cultural events. Also was a part of a project based on the AI domain in the final year of my studies.</p>
         </div>
         <!-- End .education-block -->
     </div>
@@ -166,17 +173,21 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/music-speech.jpg" height="300px" width="300px" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Music Speech Classifier</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor
-                            nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta
-                            quam laoreet placerat.
+                            Aim to implement a classifier which classifies an audio sample into speech or music. The dataset used for the project is
+                            the
+                            <a href="http://marsyasweb.appspot.com/download/data_sets/" style="text-decoration: none;">MARSYAS Music/Speech collection</a>
+                            . This dataset contains 128 audio clips of 30 secs each, evenly distributed between speech and audio.The YAAFE (Yet Another
+                            Audio Feature Extracter) library was be used to identify and extract relevant features from the
+                            audio samples. The performance of Naive Bayes, SVM, etc. classifiers will be tested to find the
+                            best performing classifier for this dataset.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/slntRohit/music-speech-classifier" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -304,8 +315,8 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
-<script src="js/canvas.js"></script>
