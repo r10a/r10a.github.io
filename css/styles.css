@@ -264,7 +264,7 @@ footer {
 #particles-js {
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #80e3ff;
     background-image: url('');
     background-size: cover;
     background-position: 50% 50%;
@@ -384,6 +384,7 @@ footer {
 #about ul,
 #experience-timeline ul {
     color: #74808a;
+    text-align: left;
 }
 
 #experience {
