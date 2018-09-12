@@ -93,7 +93,7 @@ header li {
 
 header a {
     display: block;
-    color: #fff;
+    color: #3498DB;
     padding: 10px
 }
 
@@ -848,6 +848,12 @@ footer {
     #lead-content a {
         font-size: 0.9em;
         padding: 5px 10px
+    }
+    header a {
+        background: white;
+    }
+    header ul {
+        background: #fff;
     }
 }
 

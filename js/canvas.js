@@ -50,7 +50,7 @@ function floatySpace() {
           if (pts[i].brightness > 0.1) pts[i].brightness -= 0.01
         }
 
-        var color = "rgba(255,255,0," + pts[i].brightness + ")"
+        var color = "rgba(52, 152, 219," + pts[i].brightness + ")"
         form.stroke(color).fill(true).line(ln);
       }
     },
