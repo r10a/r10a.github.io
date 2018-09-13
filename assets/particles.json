@@ -4,11 +4,11 @@
       "value": 150,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 900
       }
     },
     "color": {
-      "value": "#000000"
+      "value": "#08c6e8"
     },
     "shape": {
       "type": "circle",
