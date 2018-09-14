@@ -298,7 +298,11 @@ footer {
 }
 
 #lead-content h1 {
-    color: #E31B6D;
+    color: #fff;
+    /* horizontal-offset vertical-offset 'blur' colour */
+    text-shadow: 0 0 35px #337ab7;
+    -moz-text-shadow: 0 0 35px #337ab7;
+    -webkit-text-shadow: 0 0 35px #337ab7;
     font-weight: 900;
     font-size: 5em;
     /* text-transform: uppercase; */
